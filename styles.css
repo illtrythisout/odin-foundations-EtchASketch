@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#sketchContainer {
+    align-self: center;
+
+    width: 500px;
+    height: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px;
+    border-color: rgb(164, 170, 185);
+    border-style: solid;
+}
+
+#gridResolutionContainer {
+    width: 300px;
+
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
